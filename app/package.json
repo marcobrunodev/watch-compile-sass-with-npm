@@ -4,8 +4,8 @@
   "description": "Projeto do post: Como criar um watch e compile de sass com npm script",
   "main": "index.js",
   "scripts": {
-    "build-css": "node-sass --include-path scss scss/reset.scss assets/css/reset.css",
-    "watch-css": "nodemon -e scss -x npm run build-css"
+    "build-css": "./bin/build-css",
+    "watch-css": "./bin/watch-css"
   },
   "repository": {
     "type": "git",
