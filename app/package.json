@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "description": "Projeto do post: Como criar um watch e compile de sass com npm script",
   "main": "index.js",
-  "scripts": {
-  },
+  "scripts": {},
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/MarcoBrunoBR/watch-compile-sass-with-npm.git"
@@ -14,5 +13,9 @@
   "bugs": {
     "url": "https://github.com/MarcoBrunoBR/watch-compile-sass-with-npm/issues"
   },
-  "homepage": "https://github.com/MarcoBrunoBR/watch-compile-sass-with-npm#readme"
+  "homepage": "https://github.com/MarcoBrunoBR/watch-compile-sass-with-npm#readme",
+  "devDependencies": {
+    "node-sass": "^4.5.2",
+    "nodemon": "^1.11.0"
+  }
 }
