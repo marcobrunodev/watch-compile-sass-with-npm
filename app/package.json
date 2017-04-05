@@ -4,7 +4,6 @@
   "description": "Projeto do post: Como criar um watch e compile de sass com npm script",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
